@@ -8,12 +8,16 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>An expansive company that works excessively.</h1>
-    <p>Plan a 1 day surf trip perfect for friends and family. Lunch and campfire included.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="Headline">
+      <div className="HeadlineGroup">
+        <a className="Category">Cooking</a>
+        <h1>Always Look On The Bright Side Of Life</h1>
+        <p>Yes, I was once a Jedi Knight the same as your father. I wish I'd known him. He was the best star-pilot in the galaxy.</p>
+        <a className="readMoreBtn">Read More</a>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    
+    
   </Layout>
 )
 
