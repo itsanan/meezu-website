@@ -1,0 +1,55 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 100;
+}
+
+.HeaderGroup {
+    max-width: 455px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.Header a {
+    font-family: 'Karla', Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+.HeaderGroup img {
+    margin-top: 10px;
+    outline: none;
+    transition: all 0.5s ease-out;
+}
+
+.Logo img:hover {
+    transform: perspective(400px) translate3d(10px, 0, 10px) scale(0.93);
+}
+
+.SearchIcon img:hover {
+    transform: perspective(400px) translate3d(-10px, 0, -10px) scale(0.93);
+}
+
+@media (max-width: 640px) {
+    .HeaderGroup {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .Header a:nth-child(5) {
+        display: none;
+    }
+
+    .Header a:nth-child(2) {
+        display: none;
+    }
+
+    .Header a:nth-child(3) {
+        display: none;
+    }
+}
