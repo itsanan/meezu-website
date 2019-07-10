@@ -1,0 +1,59 @@
+.Card {
+    width: 370px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Card:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.Card img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 110%;
+    left: -60%;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Card:hover img {
+    transform: translateY(-20px);
+}
+
+.Card h3 {
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.Card p {
+    opacity: 0.7;
+    font-family: 'Karla-Regular';
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 25px;
+}
+
+.Card button {
+    background: #5590BF;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+    border-radius: 10px;
+    font-family: 'Karla-Bold';
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 7px 14px;
+    margin-top: 70%;
+    margin-left: 35%;
+    opacity: 0.8;
+}

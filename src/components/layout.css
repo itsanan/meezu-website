@@ -16,10 +16,11 @@ a {
 }
 
 .Headline {
-  background-image: url('../images/IMG_273521.jpg');
+  background-image: url('../images/bg.jpg');
   height: 800px;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .HeadlineGroup {
@@ -102,3 +103,52 @@ a {
     transform: translateY(0px);
   }
 }
+
+.Headline svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Headline .Logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+}
+
+.flowingMuseLogo {
+  margin-top: 15px;
+}
+
+.Cards h2 {
+  margin: 50px 100px;
+  text-align: center;
+  font-size: 40px;
+  background: linear-gradient(180deg, #7B37FF 30%, #AF14FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(104deg, #00F5FF 0%, #009CFF 100%); */
+}
+
+.CardGroup {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
+
