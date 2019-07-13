@@ -152,3 +152,12 @@ a {
   }
 }
 
+.WhatWeDo h2 {
+  margin: 50px 100px;
+  text-align: center;
+  font-size: 40px;
+  background: linear-gradient(180deg, #7B37FF 30%, #AF14FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

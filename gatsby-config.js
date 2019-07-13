@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Meezu`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A Creative Agency based in Surakarta, we are ready to shape your project into the next level.`,
+    keywords: `creative agency, model, copywriting, music production house, web designer, studio, brand, surakarta, indonesia`,
+    author: `@itsanan`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/meezu-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/meezu-logo.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
