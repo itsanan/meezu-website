@@ -30,6 +30,7 @@ const Button = Styled.button`
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
     border-radius: 5px;
     border: none;
+    outline: none;
     opacity: 0.8;
     font-family: 'Karla-Bold';
     font-size: 20px;
