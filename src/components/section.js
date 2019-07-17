@@ -51,6 +51,7 @@ const SectionText = Styled.p`
     font-family: 'Karla-Regular';
     font-size: 20px;
     color: white;
+    text-align: justify;
 `
 const BottomWave = Styled.div`
     position: absolute;

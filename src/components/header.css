@@ -7,7 +7,7 @@
 }
 
 .HeaderScrolled {
-    background: linear-gradient(104deg, #00F5FF 30%, #009CFF 100%);;
+    background: linear-gradient(104deg, #00F5FF 30%, #009CFF 100%);
     font-family: 'Karla-Regular';
     font-size: 20px;
     opacity: 0.85;
@@ -31,6 +31,11 @@
     font-size: 20px;
     font-weight: 100;
     color: #FFFFFF;
+    transition: 0.8s;
+}
+
+.Header a:hover {
+    color: black;
 }
 
 .HeaderGroup img {

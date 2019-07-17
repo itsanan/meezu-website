@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -20,17 +21,28 @@ const Layout = ({ children }) => {
           title
         }
       }
+      allContentfulContact(sort: { fields: [createdAt], order: ASC}) {
+        edges {
+          node {
+            title
+            url
+          }
+        }
+      }
     }
   `)
 
   return (
     <>
-        
+
         <Header/>
         <main>{children}</main>
-        <footer>
-          
-        </footer>
+        <Footer 
+          data = {data}
+        >
+         © 2019 Meezu 
+         <br/> Made with ❤️in Surakarta 
+        </Footer>
     </>
   )
 }
