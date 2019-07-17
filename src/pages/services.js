@@ -1,16 +1,20 @@
 import React from "react"
+import { Link } from "gatsby"
+import '../components/services.css'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Wave from "../components/wave"
 
-const NotFoundPage = () => (
+
+const Services = () => (
   <Layout>
-    <SEO title="404 : Not found" />
+    <SEO title="Services" />
     <div>
     <div className="Headline">
       <div className="HeadlineGroup">
-        <h1>We sincerely apologize</h1>
-        <p>The page you are looking for is no longer here. Maybe it was never here at first place. In any case, we are sorry you were sent on this page and have already taken steps to have the person responsible fired.</p>
+        <h1>Our Services</h1>
+        <p>This page is under development.</p>
         <div className="Logos">
           <img src={require('../images/graphictures-logo.png')} width="120"/>
           <img className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60"/>
@@ -22,4 +26,4 @@ const NotFoundPage = () => (
   </Layout>
 )
 
-export default NotFoundPage
+export default Services
