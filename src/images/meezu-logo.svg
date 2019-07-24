@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Logo</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-0.9%" y="-1.5%" width="101.8%" height="103.0%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
-    <g id="Samples" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Sample-#3" transform="translate(-11.000000, -13.000000)" fill="#FFFFFF">
-            <g id="Header" filter="url(#filter-1)" transform="translate(0.000000, -1.000000)">
-                <g id="Top-Nav">
-                    <path d="M52.5857864,22 L58.5857864,16 L16.4142136,16 L22.4142136,22 L52.5857864,22 L52.5857864,22 Z M21,53.5857864 L15,59.5857864 L15,17.4142136 L21,23.4142136 L21,53.5857864 L21,53.5857864 Z M54,23.4142136 L60,17.4142136 L60,59.5857864 L54,53.5857864 L54,23.4142136 L54,23.4142136 Z M22.4142136,55 L16.4142136,61 L58.5857864,61 L52.5857864,55 L22.4142136,55 L22.4142136,55 Z M23,24 L52,24 L52,53 L23,53 L23,24 L23,24 Z M45.5620084,32.0847107 C45.4828069,32.3257588 45.4432067,32.7114299 45.4432067,33.2417355 L45.4432067,43.7376033 C45.4432067,44.267909 45.4828069,44.6535801 45.5620084,44.8946281 C45.6412099,45.1356761 45.78928,45.3009637 46.0062232,45.3904959 C46.2231665,45.480028 46.5657939,45.5351239 47.0341158,45.5557851 L47.0341158,45.9793388 C46.2489879,45.9380163 45.1401836,45.9173554 43.7076695,45.9173554 C42.1993975,45.9173554 41.0871497,45.9380163 40.3708927,45.9793388 L40.3708927,45.5557851 C40.8805371,45.5351239 41.2507124,45.480028 41.4814298,45.3904959 C41.7121473,45.3009637 41.8705479,45.1356761 41.9566365,44.8946281 C42.042725,44.6535801 42.0857687,44.267909 42.0857687,43.7376033 L42.0857687,32.6735537 L36.9824629,46 L36.6415538,46 L30.9287439,32.3739669 L30.9287439,42.5082645 C30.9287439,43.341602 30.9735093,43.9528217 31.0630414,44.3419421 C31.1525735,44.7310626 31.3368003,45.0151506 31.6157274,45.1942149 C31.8946544,45.3732791 32.350917,45.4938013 32.984529,45.5557851 L32.984529,45.9793388 C32.4404492,45.9380163 31.6794375,45.9173554 30.7014712,45.9173554 C29.9232304,45.9173554 29.3102888,45.9380163 28.8626282,45.9793388 L28.8626282,45.5557851 C29.324063,45.4938013 29.6632469,45.3750009 29.8801902,45.1993802 C30.0971334,45.0237595 30.2452036,44.7551671 30.3244051,44.393595 C30.4036065,44.032023 30.4432067,43.489673 30.4432067,42.7665289 L30.4432067,33.2417355 C30.4432067,32.7114299 30.4036065,32.3257588 30.3244051,32.0847107 C30.2452036,31.8436627 30.0988552,31.6783751 29.8853555,31.588843 C29.6718558,31.4993108 29.3309501,31.444215 28.8626282,31.4235537 L28.8626282,31 C29.3102888,31.0413225 29.9232304,31.0619835 30.7014712,31.0619835 C31.9962435,31.0619835 33.1084913,31.0413225 34.038248,31 L38.304777,41.2789256 L42.2097356,31.0619835 L43.7076695,31.0619835 C45.1401836,31.0619835 46.2489879,31.0413225 47.0341158,31 L47.0341158,31.4235537 C46.5589068,31.444215 46.2145576,31.4993108 46.0010579,31.588843 C45.7875583,31.6783751 45.6412099,31.8436627 45.5620084,32.0847107 L45.5620084,32.0847107 Z" id="Logo"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.93701in" height="3.93701in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3937 3937"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id1)}
+    .fil1 {fill:url(#id2);fill-opacity:0.701961}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M-93 8l4129 0 0 3945 -4129 0 0 -3945z"/>
+    </clipPath>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="1865.49" y1="3881.63" x2="2077.67" y2="79.6024">
+   <stop offset="0" style="stop-opacity:1; stop-color:#6AC6DE"/>
+   <stop offset="0.568627" style="stop-opacity:1; stop-color:#5CA1C9"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#4D7CB4"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="1956.34" y1="2306.22" x2="1984.45" y2="3402.66">
+   <stop offset="0" style="stop-opacity:1; stop-color:#DCEFF2"/>
+   <stop offset="0.568627" style="stop-opacity:1; stop-color:#93D5EF"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#49BBEC"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_762555136">
+   <g style="clip-path:url(#id0)">
+    <image x="-93" y="8" width="4128" height="3944" xlink:href="Meezu Logo_Images\Meezu Logo_ImgID1.png"/>
+   </g>
+  </g>
+  <g id="_762553280">
+   <path class="fil0" d="M681 1486l0 2373 -680 0 0 -3741 481 0 1106 1304 308 -363 0 -957 2046 0 0 604 -919 0 0 -4 -497 0 0 2627 309 0 0 0 1107 0 0 530 -2046 0 0 -1667 -308 363 -907 -1069zm3261 -195l0 432 -919 0 0 -432 919 0zm0 1017l0 436 -919 0 0 -436 919 0z"/>
+   <path class="fil1" d="M681 1981l0 1878 -680 0 0 -1539c133,-341 360,-454 680,-339zm1845 -131l0 1479 309 0 0 0 1105 0 0 530 -2044 0 0 -1508c164,-36 308,-114 389,-242 88,-139 167,-220 241,-259zm-783 522l-155 183 -176 -208c106,23 220,32 331,25zm2197 372l0 -218c-274,23 -483,-82 -656,-218l-261 0 0 436 917 0z"/>
+  </g>
+ </g>
 </svg>

@@ -43,7 +43,7 @@ const IndexPage = () => (
       <div className="HeadlineGroup">
         <a className="Category">Meezu Company</a>
         <h1>Expansive Company that Works Excessively</h1>
-        <p>A creative company that works in visual, text, and music industry, and ready to broaden itself on other fields that consists of workaholics which is often called Sang Manufaktur Estetika.</p>
+        <p>A group of people who love to work on visual, text, and music, more in the future. Creating creative and beautiful ideas, or just call us <b>"Manufaktur Estetika"</b>.</p>
         <a className="readMoreBtn">Watch Our Works</a>
         <div className="Logos">
           <img src={require('../images/graphictures-logo.png')} width="120"/>
@@ -117,9 +117,10 @@ const IndexPage = () => (
         image={require('../images/bg-profile.jpg')}
         btnText="Read More"/>
       </div>
-    </div>
+    </div>  
     <div className="WhatWeDo">
       <h2>What We Do?</h2>
+      <div className="TopWave"><Wave /></div>
       <Section 
       image={require('../images/bg-project.jpg')}
       logo={require('../images/graphictures-logo.png')}
@@ -138,6 +139,7 @@ const IndexPage = () => (
       title="Pelir"
       text="Pelir is a podcast by Meezu.Co that talks about young adults problems and philosophical ideas of self-development, As the time goes on, Pelir centers their skill on narration and texts arranging. In 2019 Pelir launched Kata Kutata. A wordpreneur business that concentrates on copywriting, proofreading, and translation business."
       />
+      <div className="BottomWave"><Wave /></div>
     </div>
     <SectionCaption>Our Projects.</SectionCaption>
     <SectionCellGroup>

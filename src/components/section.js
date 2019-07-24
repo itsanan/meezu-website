@@ -1,6 +1,5 @@
 import React from 'react'
 import Styled from 'styled-components'
-import Wave from './wave';
 
 const SectionGroup = Styled.div`
     background: url(${props => props.image});
@@ -11,7 +10,7 @@ const SectionGroup = Styled.div`
     grid-gap: 20px;
     position: relative;
 
-    @media (max-width: 640px) {
+    @media (max-width: 736px) {
         height: 820px;
     }
 `
@@ -20,8 +19,8 @@ const SectionLogo = Styled.img`
     width: 128px;
     margin: 0 auto;
 
-    @media (max-width: 720px) {
-        width: 99px;
+    @media (max-width: 736px) {
+        width: 89px;
     }
 `
 const SectionTitleGroup = Styled.div`
@@ -31,45 +30,32 @@ const SectionTitleGroup = Styled.div`
     grid-gap: 20px;
     grid-template-rows: auto 100%;
 
-    @media (max-width: 720px) {
+    @media (max-width: 736px) {
         grid-template-columns: 1fr;
     }
 `
 const SectionTitle = Styled.h3`
-    font-family: 'PlayfairDisplay-Bold';
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
     font-size: 40px;
     color: white;
     margin: 0;
     line-height: 1.2;
     text-align: center;
 
-    @media (max-width: 720px) {
+    @media (max-width: 736px) {
         font-size: 20px;
     }
 `
 const SectionText = Styled.p`
-    font-family: 'Karla-Regular';
+    font-family: 'Karla', sans-serif;
+    font-weight: regular;
     font-size: 20px;
     color: white;
-    text-align: justify;
-`
-const BottomWave = Styled.div`
-    position: absolute;
-    width: 100%;
-    bottom: -6px;
-`
-
-const TopWave = Styled.div`
-    position: absolute;
-    width: 100%;
-    top: -6px;
-    transform: rotate(180deg);
 `
 
 const Section = props  => (
     <SectionGroup image={props.image}>
-        <TopWave><Wave /></TopWave>
-        <BottomWave><Wave /></BottomWave>
         <SectionLogo src={props.logo}/>
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>

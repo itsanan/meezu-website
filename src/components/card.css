@@ -1,6 +1,6 @@
 .Card {
-    width: 370px;
-    height: 500px;
+    width: 325px;
+    height: 450px;
     position: relative;
     overflow: hidden;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
@@ -26,7 +26,8 @@
 }
 
 .Card h3 {
-    font-family: 'PlayfairDisplay-Bold';
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
     font-size: 20px;
     color: #ffffff;
     letter-spacing: 0;
@@ -36,7 +37,8 @@
 
 .Card p {
     opacity: 0.7;
-    font-family: 'Karla-Regular';
+    font-family: 'Karla', sans-serif;
+    font-weight: regular;
     font-size: 16px;
     color: #ffffff;
     letter-spacing: 0;
@@ -48,7 +50,8 @@
     background: #5590BF;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
     border-radius: 10px;
-    font-family: 'Karla-Bold';
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
     font-size: 17px;
     color: #FFFFFF;
     text-align: center;

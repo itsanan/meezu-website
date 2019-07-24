@@ -1,5 +1,6 @@
 import React from 'react'
 import Styled from 'styled-components'
+import "./layout.css"
 
 const FooterGroup = Styled.div`
     background: linear-gradient(104deg, #00F5FF 30%, #009CFF 100%);
@@ -9,13 +10,14 @@ const FooterGroup = Styled.div`
 `
 
 const Text = Styled.p`
-    font-family: PlayfairDisplay-Bold;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
     font-size: 30px;
     color: #ffffff;
     letter-spacing: 0;
     text-align: center;
     line-height: 40px;
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 
     @media (max-width: 720px) {
@@ -32,7 +34,8 @@ const Button = Styled.button`
     border: none;
     outline: none;
     opacity: 0.8;
-    font-family: 'Karla-Bold';
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: #ffffff;
     text-transform: uppercase;
@@ -46,6 +49,7 @@ const Button = Styled.button`
 
     @media (max-width: 720px) {
         font-size: 15px;
+        grid-template-columns: repeat(1, 1fr);
     }
 `
 
@@ -55,7 +59,8 @@ const LinkGroup = Styled.a`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    font-family: 'Karla-Regular';
+    font-family: 'Karla', sans-serif;
+    font-weight: regular;
     color: white;
 
     a {
@@ -73,7 +78,8 @@ const LinkGroup = Styled.a`
 `
 
 const Copyright = Styled.p`
-    font-family: Karla-Regular;
+    font-family: 'Karla', sans-serif;
+    font-weight: regular;
     font-size: 15px;
     color: #ffffff;
     letter-spacing: 0;
