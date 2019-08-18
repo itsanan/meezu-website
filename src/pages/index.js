@@ -59,67 +59,67 @@ const IndexPage = () => (
         <Card 
         title="Buchori Anantya" 
         text="Full Stack Developer" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Anan.jpg')}
         btnText="Read More"/>
         <Card 
         title="Harzendra Hanif" 
         text="Photographer" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Zendra.jpg')}
         btnText="Read More"/>
         <Card 
         title="Tito Dentaresa" 
         text="Creative Director" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Tito.jpg')}
         btnText="Read More"/>
         <Card 
         title="Fadilla Dea" 
         text="Graphic Designer" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Dea.jpg')}
         btnText="Read More"/>
         <Card 
         title="Riptantyo Adi" 
         text="Brand & Digital Strategist" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Tyok.jpg')}
         btnText="Read More"/>
         <Card 
         title="Bayu Rangsang" 
         text="Content Producer" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Bayu.jpg')}
         btnText="Read More"/>
         <Card 
         title="Haris Ardan" 
         text="Copywriter" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Haris.jpg')}
         btnText="Read More"/>
         <Card 
         title="Rahmat Prasetyo" 
         text="Music Producer" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Matt.jpg')}
         btnText="Read More"/>
         <Card 
         title="Dentadio Gonanda" 
         text="Image Retoucher" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Dio.jpg')}
         btnText="Read More"/>
         <Card 
         title="Giffari Sadewa" 
         text="Social Media Manager" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Ghifari.jpg')}
         btnText="Read More"/>
         <Card 
         title="Sharu Neza" 
         text="Social Media Manager" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Juki.jpg')}
         btnText="Read More"/>
         <Card 
         title="Aga Kurniawan" 
         text="Account Director" 
-        image={require('../images/bg-profile.jpg')}
+        image={require('../images/Aga.jpg')}
         btnText="Read More"/>
       </div>
     </div>  
     <div className="WhatWeDo">
-      <h2>What We Do?</h2>
+      <SectionCaption>What We Do?</SectionCaption>
       <div className="TopWave"><Wave /></div>
       <Section 
       image={require('../images/bg-project.jpg')}

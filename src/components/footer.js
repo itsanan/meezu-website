@@ -1,6 +1,5 @@
 import React from 'react'
 import Styled from 'styled-components'
-import "./layout.css"
 
 const FooterGroup = Styled.div`
     background: linear-gradient(104deg, #00F5FF 30%, #009CFF 100%);
@@ -11,17 +10,19 @@ const FooterGroup = Styled.div`
 
 const Text = Styled.p`
     font-family: 'Playfair Display', serif;
+    max-width: 800px;
+    margin: 0 auto;
     font-weight: bold;
     font-size: 30px;
     color: #ffffff;
     letter-spacing: 0;
     text-align: center;
     line-height: 40px;
-    max-width: 700px;
-    margin: 0 auto;
+    
 
     @media (max-width: 720px) {
         font-size: 20px;
+        max-width: 200px;
     }
 `
 
@@ -62,6 +63,7 @@ const LinkGroup = Styled.a`
     font-family: 'Karla', sans-serif;
     font-weight: regular;
     color: white;
+    text-align: center;
 
     a {
         transition: 0.8s;

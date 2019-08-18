@@ -1,0 +1,7 @@
+.Head {
+    background-image: url('../images/Teams.jpg');
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }

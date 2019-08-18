@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Surfer from "../components/surfer";
 
 const NotFoundPage = () => (
   <Layout>
@@ -18,6 +19,7 @@ const NotFoundPage = () => (
         </div>
       </div>
     </div>
+    <Surfer/>
     </div>
   </Layout>
 )

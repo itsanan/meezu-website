@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import '../components/services.css'
+import '../components/profile.css'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,7 +10,7 @@ const Profile = () => (
   <Layout>
     <SEO title="Profile" />
     <div>
-    <div className="Headline">
+    <div className="Head">
       <div className="HeadlineGroup">
         <h1>Our Teams</h1>
         <p>This page is under development.</p>
