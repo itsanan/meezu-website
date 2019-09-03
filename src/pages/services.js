@@ -5,6 +5,7 @@ import '../components/services.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Wave from "../components/wave"
+import Maps from "../components/maps"
 
 
 const Services = () => (
@@ -20,8 +21,14 @@ const Services = () => (
           <img className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60"/>
           <img src={require('../images/pelir-logo.png')} width="100"/>
         </div>
-      </div>
+        <Wave />
+      </div>  
     </div>
+    <div className="Maps">
+      <h2>Find us here</h2>
+      <p>Meezu Headquarters</p>
+      <p>Jl. Kerinci 83, Kadipiro, Surakarta, Jawa Tengah, Indonesia.</p>
+    <Maps/></div>
     </div>
   </Layout>
 )

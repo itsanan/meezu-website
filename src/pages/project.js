@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 
 const Project = () => (
   <Layout>
-    <SEO title="Profile" />
+    <SEO title="Project" />
     <div>
     <div className="Headline">
       <div className="HeadlineGroup">

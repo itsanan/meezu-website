@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import LazyLoad from 'react-lazyload'
 import SEO from "../components/seo"
 import Card from "../components/card";
 import Section from "../components/section";
@@ -10,6 +11,7 @@ import Wave from "../components/wave";
 import StaticData from "../../staticdata.json"
 import Cell from "../components/cell";
 import Styled from 'styled-components';
+
 
 const SectionCellGroup = Styled.div`
   max-width: 800px;
@@ -46,9 +48,11 @@ const IndexPage = () => (
         <p>A group of people who love to work on visual, text, and music, more in the future. Creating creative and beautiful ideas, or just call us <b>"Manufaktur Estetika"</b>.</p>
         <a className="readMoreBtn">Watch Our Works</a>
         <div className="Logos">
+          <LazyLoad throttle={200} height={300}>
           <img src={require('../images/graphictures-logo.png')} width="120"/>
           <img className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60"/>
           <img src={require('../images/pelir-logo.png')} width="100"/>
+          </LazyLoad>
         </div>
         <Wave />
       </div>
