@@ -63,62 +63,62 @@ const IndexPage = () => (
         <Card 
         title="Buchori Anantya" 
         text="Full Stack Developer" 
-        image={require('../images/Anan.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Anan.jpg'}
         btnText="Read More"/>
         <Card 
         title="Harzendra Hanif" 
         text="Photographer" 
-        image={require('../images/Zendra.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Zendra.jpg'}
         btnText="Read More"/>
         <Card 
         title="Tito Dentaresa" 
         text="Creative Director" 
-        image={require('../images/Tito.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Tito.jpg'}
         btnText="Read More"/>
         <Card 
         title="Fadilla Dea" 
         text="Graphic Designer" 
-        image={require('../images/Dea.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Dea.jpg'}
         btnText="Read More"/>
         <Card 
         title="Riptantyo Adi" 
         text="Brand & Digital Strategist" 
-        image={require('../images/Tyok.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Tyok.jpg'}
         btnText="Read More"/>
         <Card 
         title="Bayu Rangsang" 
         text="Content Producer" 
-        image={require('../images/Bayu.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Bayu.jpg'}
         btnText="Read More"/>
         <Card 
         title="Haris Ardan" 
         text="Copywriter" 
-        image={require('../images/Haris.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Haris.jpg'}
         btnText="Read More"/>
         <Card 
         title="Rahmat Prasetyo" 
         text="Music Producer" 
-        image={require('../images/Matt.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Matt.jpg'}
         btnText="Read More"/>
         <Card 
         title="Dentadio Gonanda" 
         text="Image Retoucher" 
-        image={require('../images/Dio.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Dio.jpg'}
         btnText="Read More"/>
         <Card 
         title="Giffari Sadewa" 
         text="Social Media Manager" 
-        image={require('../images/Ghifari.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Ghifari.jpg'}
         btnText="Read More"/>
         <Card 
         title="Sharu Neza" 
         text="Social Media Manager" 
-        image={require('../images/Juki.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Juki.jpg'}
         btnText="Read More"/>
         <Card 
         title="Aga Kurniawan" 
         text="Account Director" 
-        image={require('../images/Aga.jpg')}
+        image={'https://storage.googleapis.com/meezu/profiles/Aga.jpg'}
         btnText="Read More"/>
       </div>
     </div>  
