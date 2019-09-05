@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import LazyLoad from 'react-lazyload'
 import SEO from "../components/seo"
 import Card from "../components/card";
@@ -11,6 +9,7 @@ import Wave from "../components/wave";
 import StaticData from "../../staticdata.json"
 import Cell from "../components/cell";
 import Styled from 'styled-components';
+
 
 
 const SectionCellGroup = Styled.div`
@@ -43,10 +42,10 @@ const IndexPage = () => (
     <div>
     <div className="Headline">
       <div className="HeadlineGroup">
-        <a className="Category">Meezu Company</a>
+        <a className="Category" href="">Meezu Company</a>
         <h1>Expansive Company that Works Excessively</h1>
         <p>A group of people who love to work on visual, text, and music, more in the future. Creating creative and beautiful ideas, or just call us <b>"Manufaktur Estetika"</b>.</p>
-        <a className="readMoreBtn">Watch Our Works</a>
+        <a className="readMoreBtn" href="">Watch Our Works</a>
         <div className="Logos">
           <LazyLoad throttle={200} height={300}>
           <img src={require('../images/graphictures-logo.png')} width="120"/>
@@ -111,7 +110,7 @@ const IndexPage = () => (
         image={'https://storage.googleapis.com/meezu/profiles/Ghifari.jpg'}
         btnText="Read More"/>
         <Card 
-        title="Sharu Neza" 
+        title="Shahru Neeza" 
         text="Social Media Manager" 
         image={'https://storage.googleapis.com/meezu/profiles/Juki.jpg'}
         btnText="Read More"/>

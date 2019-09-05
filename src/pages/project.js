@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import '../components/services.css'
 
 import Layout from "../components/layout"
@@ -15,9 +14,9 @@ const Project = () => (
         <h1>Our Projects</h1>
         <p>This page is under development.</p>
         <div className="Logos">
-          <img src={require('../images/graphictures-logo.png')} width="120"/>
-          <img className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60"/>
-          <img src={require('../images/pelir-logo.png')} width="100"/>
+          <img src={require('../images/graphictures-logo.png')} width="120" alt=""/>
+          <img className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60" alt=""/>
+          <img src={require('../images/pelir-logo.png')} width="100" alt=""/>
         </div>
       </div>
     </div>
