@@ -1,9 +1,10 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../images/meezu-logo.svg"
 import SearchIcon from "../images/search-icon.svg"
 import "./header.css"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
 
 class Header extends React.Component {
   constructor(props) {
@@ -32,12 +33,12 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
       <div className="HeaderGroup">
-        <Link className="Logo" to="/"><img src={Logo} width="30" alt=""></img></Link>
-        <Link to="/profile">Profile</Link>
-        <Link to="/what-we-do">What We Do?</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/project">Project</Link>
-        <Link className="SearchIcon" to="/"><img src={SearchIcon} width="30" alt=""></img></Link>
+        <AniLink duration={1} className="Logo" paintDrip hex="#00F5FF" to="/"><img src={Logo} width="30" alt=""></img></AniLink>
+        <AniLink duration={1} paintDrip to="/profile" hex="#00F5FF">Profile</AniLink>
+        <AniLink duration={1} paintDrip to="/what-we-do" hex="#00F5FF">What We Do?</AniLink>
+        <AniLink duration={1} paintDrip to="/services" hex="#00F5FF">Services</AniLink>
+        <AniLink duration={1} paintDrip to="/project" hex="#00F5FF">Project</AniLink>
+        <AniLink duration={1} paintDrip className="SearchIcon" to="/" hex="#00F5FF"><img src={SearchIcon} width="30" alt=""></img></AniLink>
       </div>
     </div>
     )
