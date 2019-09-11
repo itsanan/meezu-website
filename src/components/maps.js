@@ -55,5 +55,5 @@
   }
    
   export default GoogleApiWrapper({
-    apiKey: 'AIzaSyBx4G3qAlSPpEzBW6ZYAsi3NjEUXqlQkqU'
+    apiKey: 'YOUR TOKEN HERE'
   })(maps)
