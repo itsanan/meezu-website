@@ -62,62 +62,62 @@ const IndexPage = () => (
         <Card 
         title="Buchori Anantya" 
         text="Full Stack Developer" 
-        image={'https://storage.googleapis.com/meezu/profiles/Anan.jpg'}
+        image={'http://assets.meezu.co/profiles/Anan.jpg'}
         btnText="Read More"/>
         <Card 
         title="Harzendra Hanif" 
         text="Photographer" 
-        image={'https://storage.googleapis.com/meezu/profiles/Zendra.jpg'}
+        image={'http://assets.meezu.co/profiles/Zendra.jpg'}
         btnText="Read More"/>
         <Card 
         title="Tito Dentaresa" 
         text="Creative Director" 
-        image={'https://storage.googleapis.com/meezu/profiles/Tito.jpg'}
+        image={'http://assets.meezu.co/profiles/Tito.jpg'}
         btnText="Read More"/>
         <Card 
         title="Fadilla Dea" 
         text="Graphic Designer" 
-        image={'https://storage.googleapis.com/meezu/profiles/Dea.jpg'}
+        image={'http://assets.meezu.co/profiles/Dea.jpg'}
         btnText="Read More"/>
         <Card 
         title="Riptantyo Adi" 
         text="Brand & Digital Strategist" 
-        image={'https://storage.googleapis.com/meezu/profiles/Tyok.jpg'}
+        image={'http://assets.meezu.co/profiles/Tyok.jpg'}
         btnText="Read More"/>
         <Card 
         title="Bayu Rangsang" 
         text="Content Producer" 
-        image={'https://storage.googleapis.com/meezu/profiles/Bayu.jpg'}
+        image={'http://assets.meezu.co/profiles/Bayu.jpg'}
         btnText="Read More"/>
         <Card 
         title="Haris Ardan" 
         text="Copywriter" 
-        image={'https://storage.googleapis.com/meezu/profiles/Haris.jpg'}
+        image={'http://assets.meezu.co/profiles/Haris.jpg'}
         btnText="Read More"/>
         <Card 
         title="Rahmat Prasetyo" 
         text="Music Producer" 
-        image={'https://storage.googleapis.com/meezu/profiles/Matt.jpg'}
+        image={'http://assets.meezu.co/profiles/Matt.jpg'}
         btnText="Read More"/>
         <Card 
         title="Dentadio Gonanda" 
         text="Image Retoucher" 
-        image={'https://storage.googleapis.com/meezu/profiles/Dio.jpg'}
+        image={'http://assets.meezu.co/profiles/Dio.jpg'}
         btnText="Read More"/>
         <Card 
         title="Giffari Sadewa" 
         text="Social Media Manager" 
-        image={'https://storage.googleapis.com/meezu/profiles/Ghifari.jpg'}
+        image={'http://assets.meezu.co/profiles/Ghifari.jpg'}
         btnText="Read More"/>
         <Card 
         title="Shahru Neeza" 
         text="Social Media Manager" 
-        image={'https://storage.googleapis.com/meezu/profiles/Juki.jpg'}
+        image={'http://assets.meezu.co/profiles/Juki.jpg'}
         btnText="Read More"/>
         <Card 
         title="Aga Kurniawan" 
         text="Account Director" 
-        image={'https://storage.googleapis.com/meezu/profiles/Aga.jpg'}
+        image={'http://assets.meezu.co/profiles/profiles/Aga.jpg'}
         btnText="Read More"/>
       </div>
     </div>  
