@@ -117,7 +117,7 @@ const IndexPage = () => (
         <Card 
         title="Aga Kurniawan" 
         text="Account Director" 
-        image={'http://assets.meezu.co/profiles/profiles/Aga.jpg'}
+        image={'http://assets.meezu.co/profiles/Aga.jpg'}
         btnText="Read More"/>
       </div>
     </div>  

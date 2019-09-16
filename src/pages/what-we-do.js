@@ -5,10 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Player from "../components/player"
 import Wave from "../components/wave";
-import Image from "react-graceful-image";
-import ReactSVG from 'react-svg'
-import ReactPlayer from "../components/soundplayer"
-
+import ReactSVG from 'react-svg';
+import ReactPlayer from "../components/soundplayer";
+import ProgressiveImage from "../components/progressive-image";
 
 const WhatWeDo = () => (
   <Layout>
@@ -17,14 +16,14 @@ const WhatWeDo = () => (
     <div className="Headline">
       <div className="HeadlineGroup">
         <h1>What We Do</h1>
-        <p><b>Meezu.Co</b> stands as parent company of three subsidiaries; Pelir, Flowingmuse, and Graphictures. Basically, all subsidiaries work by themselves, and helping each other for the specialities needed in each project. So, each project is handled by different subsidiary depends on the speciality and focus. That being said, <b>Meezu.Co</b> has Creative Agency services that serves as a project that combines every aspect of <b>Meezu.Co</b> skills.</p>
+        <p><b>Meezu.Co</b> stands as parent company of three subsidiaries; Pelir, Flowingmuse, and Graphictures. Basically, all subsidiaries work by themselves, and helping each other for the specialities needed in each project. So, each project is handled by different subsidiary depends on the speciality and focus.</p>
         <div className="Logos">
           <img src={require('../images/graphictures-logo.png')} width="120" alt=""/>
           <img className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60" alt=""/>
           <img src={require('../images/pelir-logo.png')} width="100" alt=""/>
         </div>
-        <Wave />
       </div>
+      <Wave />
     </div>
     <div className="Pelir">
       <div className="illustration">
@@ -51,80 +50,64 @@ const WhatWeDo = () => (
       <p><b>Graphictures</b> is photography and videography media that focuses on love commemoration such as pre-wedding, maternity, engagement. But it doesn't stop Graphictures to produce casual media such as modelling, studio photo, music video, and event photography and videography.</p>
       <h1 id="season-tag">Studio</h1>
       <div className="container-1">
-      <Image
-        className="images"
+      <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 01"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
-      <Image
-        className="images"
+      <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 02"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
-      <Image
-        className="images"
+      <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 03"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
-      <Image
-        className="images"
+      <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 04"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
       </div>
       <h1 id="season-tag">Wedding</h1>
       <div className="container-2">
-      <Image
-        className="images"
+      <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 01"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
-      <Image
-        className="images"
+      <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 02"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
-      <Image
-        className="images"
+      <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 03"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
-       <Image
-        className="images"
+       <ProgressiveImage
         src="http://assets.meezu.co/graphictures/3.jpg"
+        placeholder="http://assets.meezu.co/graphictures/3-blur.jpg"
         width="400"
         height="600"
         alt="Studio - Batik Maulana DN 05"
-        placeholderColor="#808080"
-        retry={{ count: 3, delay: 2 }}
       />
       </div>
     </div>

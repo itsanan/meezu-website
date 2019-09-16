@@ -5,6 +5,10 @@
     background: linear-gradient(180deg, #7B37FF 30%, #AF14FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (max-width: 736px) {
+        font-size: 30px;
+    }
 }
 
 .Pelir h1 {
@@ -37,6 +41,10 @@
     background: linear-gradient(180deg, #7B37FF 30%, #AF14FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (max-width: 736px) {
+        font-size: 30px;
+    }
 }
 
 .Graphictures h1 {

@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import Styled from 'styled-components'
 import ReactPlayer from 'react-player'
 
