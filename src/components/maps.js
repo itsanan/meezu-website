@@ -7,6 +7,7 @@
   }
  
   export class maps extends Component {
+    abortController = new AbortController()
 
     state = {
         showingInfoWindow: false,
@@ -29,6 +30,10 @@
           })
         }
       };
+
+    componentWillMount() {
+      this.abortController.abort()
+    }
 
     render() {
       return (
@@ -55,5 +60,5 @@
   }
    
   export default GoogleApiWrapper({
-    apiKey: 'YOUR TOKEN HERE'
+    apiKey: process.env.GATSBY_GMAPS_API_KEY || ''
   })(maps)

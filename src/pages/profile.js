@@ -2,7 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import Wave from "../components/wave"
+import Brainstorming from "../components/lottie/brainstorming"
 
 const Profile = () => (
   <Layout>
@@ -18,7 +19,9 @@ const Profile = () => (
           <img src={require('../images/pelir-logo.png')} width="100" alt=""/>
         </div>
       </div>
+      <Wave />
     </div>
+    <Brainstorming />
     </div>
   </Layout>
 )

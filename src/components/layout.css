@@ -15,7 +15,7 @@ a {
 }
 
 .Headline {
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg.png');
   height: 900px;
   background-size: cover;
   background-position: center;
@@ -85,11 +85,13 @@ a {
 
 @media (max-width: 640px) {
   .Headline h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .Headline p {
-    font-size: 20px;
+    font-size: 15px;
+    padding-right: 2em;
+    padding-left: 2em;
   }
 
 }

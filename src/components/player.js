@@ -8,7 +8,6 @@ const Podcard = Styled.div`
     justify-items: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    padding: 1rem;
     grid-gap: 1rem;
 
     @media (max-width: 736px) {

@@ -2,7 +2,7 @@ import React from 'react'
 import Styled from 'styled-components'
 
 const SectionGroup = Styled.div`
-    background: url(${props => props.image});
+    background-color: #16192B;
     height: 720px;
     background-size: cover;
     display: grid;
@@ -17,6 +17,7 @@ const SectionGroup = Styled.div`
 const SectionLogo = Styled.img`
     align-self: end;
     width: 128px;
+    max-height: 208px;
     margin: 0 auto;
 
     @media (max-width: 736px) {
@@ -55,7 +56,7 @@ const SectionText = Styled.p`
 `
 
 const Section = props  => (
-    <SectionGroup image={props.image}>
+    <SectionGroup>
         <SectionLogo src={props.logo}/>
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>

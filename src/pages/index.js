@@ -125,19 +125,16 @@ const IndexPage = () => (
       <SectionCaption>What We Do?</SectionCaption>
       <div className="TopWave"><Wave /></div>
       <Section 
-      image={require('../images/bg-project.jpg')}
       logo={require('../images/graphictures-logo.png')}
       title="Graphictures"
       text="Graphictures is photography and videography media that focuses on love commemoration such as pre-wedding, maternity, engagement. But it doesn't stop Graphictures to produce casual media such as modelling, studio photo, music video, and event photography and videography."
       />
       <Section 
-      image={require('../images/bg-project.jpg')}
       logo={require('../images/fmuse-logo.png')}
       title="FlowingMuse"
       text="Flowingmuse is music records by Meezu.Co that produces original music, playlist, and remix. Flowingmuse is ready to provide your needs of music production (recording,mixing,mastering), and music performance. DJ performance is available for hiring. In conclusion, Flowingmuse the nest of Meezu.Co when it comes to harmony and music."
       />
       <Section 
-      image={require('../images/bg-project.jpg')}
       logo={require('../images/pelir-logo.png')}
       title="Pelir"
       text="Pelir is a podcast by Meezu.Co that talks about young adults problems and philosophical ideas of self-development, As the time goes on, Pelir centers their skill on narration and texts arranging. In 2019 Pelir launched Kata Kutata. A wordpreneur business that concentrates on copywriting, proofreading, and translation business."
