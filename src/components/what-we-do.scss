@@ -1,0 +1,162 @@
+
+.Pelir h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Baskervville', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.125rem;
+    color: white;
+
+    @media (max-width: 736px) {
+        font-size: 40px;
+    }
+}
+
+.Pelir h1 {
+    font-family: 'Baskervville', serif;
+    margin: 1em auto;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.0675rem;
+    color: white;
+
+    .season-number {
+        font-size: 35px;
+    }
+}
+
+.Pelir p {
+    margin: 0 auto;
+    font-family: 'Lato Light', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #9093A6;
+    letter-spacing: 0.0675rem;
+    text-align: justify;
+    line-height: 25px;
+    max-width: 50%;
+    
+}
+
+.Graphictures h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Baskervville', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.125rem;
+    color: white;
+
+    @media (max-width: 736px) {
+        font-size: 40px;
+    }
+}
+
+.Graphictures h1 {
+    font-family: 'Baskervville', serif;
+    margin: 1em auto;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.0675rem;
+    color: white;
+}
+
+.Graphictures p {
+    margin: 0 auto;
+    font-family: 'Lato Light', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #9093A6;
+    letter-spacing: 0.0675rem;
+    text-align: justify;
+    line-height: 25px;
+    max-width: 50%;
+}
+
+#season-tag::after {
+        content: "";
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 0.5px;
+        background: #C93200;
+        position: absolute;
+        visibility: hidden;
+        transform-origin: center;
+        transform: scale(0);
+        transition: 0.25s ease-out;
+}
+      
+#season-tag:hover::after {
+        visibility: visible;
+        transform: scale(1);
+    }
+
+.reserved {
+    padding: 1rem;
+    opacity: 0.7;
+    font-family: 'Lato Light', sans-serif;
+    font-weight: regular;
+    font-size: 15px;
+    color: #9093A6;
+    text-align: center;
+    line-height: 25px;
+}
+
+.container-player {
+    padding: 1rem;
+}
+
+.container-1, .container-2 {
+    margin: 3rem auto;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+
+    @media (max-width: 736px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media only screen 
+    and (min-width: 1024px) 
+    and (max-width: 1366px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        grid-template-columns: repeat(2, 3fr);
+    }
+}
+
+.illustration {
+    padding-top: 5rem;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+@media (max-width: 736px) {
+    .Pelir p {
+        font-size: 16px;
+        max-width: 75%;
+        text-align: left;
+    }
+
+    .Graphictures p {
+        font-size: 16px;
+        max-width: 75%;
+        text-align: left;
+    }
+  }

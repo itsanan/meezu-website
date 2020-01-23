@@ -1,0 +1,158 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 100;
+    transition: 1.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderScrolled {
+    background: #16192B;
+    font-family: 'Lato Light', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.0675rem;
+    opacity: 0.85;
+    color: #FFFFFF;
+    padding: 15px 0;
+    backdrop-filter: blur(20px);
+}
+
+.HeaderGroup {
+    max-width: 455px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, auto);
+    cursor: pointer;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+.HeaderGroup .service {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    animation-delay: 1.5s;
+    -webkit-animation: wipe-center 1s cubic-bezier(0, 0.76, 0.8, 1.01);
+    animation: wipe-center 1s cubic-bezier(0, 0.76, 0.8, 1.01);
+}
+.HeaderGroup .brand {
+    position: relative;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    animation: mover 1.3s cubic-bezier(0, 0.76, 0.8, 1.01);
+}
+.HeaderGroup .project {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    animation-delay: 1.5s;
+    -webkit-animation: wipe-left 1s cubic-bezier(0, 0.76, 0.8, 1.01);
+    animation: wipe-left 1s cubic-bezier(0, 0.76, 0.8, 1.01);
+}
+
+.HeaderGroup .WhatWeDo {
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    animation-delay: 1.5s;
+    -webkit-animation: wipe-right 1s cubic-bezier(0, 0.76, 0.8, 1.01);
+    animation: wipe-right 1s cubic-bezier(0, 0.76, 0.8, 1.01);
+}
+
+.Header a {
+    font-family: 'Lato Light', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.0675rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+.Header a:hover {
+    color: #C93200;
+}
+
+.HeaderGroup img {
+    margin-top: 10px;
+    outline: none;
+    transition: all 0.5s ease-out;
+}
+
+.Logo img:hover {
+    transform: perspective(400px) translate3d(10px, 0, 10px) scale(0.93);
+}
+
+.SearchIcon img:hover {
+    transform: perspective(400px) translate3d(-10px, 0, -10px) scale(0.93);
+}
+
+@media (max-width: 640px) {
+    .HeaderGroup {
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+/* Keyframes Animations */
+@keyframes mover {
+    0% { 
+        transform: translateY(-60px); 
+    }
+    100% { 
+        transform: translateY(0); 
+    }
+  }
+
+@keyframes clip-bg {
+    0% {
+        transform: translateX(-400px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes wipe-left {
+    0% {
+      transform: translateX(10em);
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+    }
+    100% {
+      transform: translateX(0);
+      -webkit-filter: blur(0);
+      filter: blur(0);
+    }
+  }
+
+  @keyframes wipe-right {
+    0% {
+      transform: translateX(-10em);
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+    }
+    100% {
+      transform: translateX(0);
+      -webkit-filter: blur(0);
+      filter: blur(0);
+    }
+  }
+
+  @keyframes wipe-center {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+    }
+    100% {
+      -webkit-filter: blur(0);
+      filter: blur(0);
+    }
+  }

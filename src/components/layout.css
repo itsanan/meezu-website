@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville|Lato&display=swap');
+
+main {
+  background-color: white;
+}
+
+body {
+  font-family: 'Baskervville Bold', serif;
+  font-kerning: none;
+  margin: 0%;
+  font-size: 1.250em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Headline {
+  background-image: url('../images/bg.png');
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.HeadlineGroup {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 150px 30px;
+  text-align: center;
+}
+
+.Category {
+  padding: 7px 7px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Baskervville', sans-serif;
+  color: rgba(255, 255, 255, 100);
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+.Headline h1 {
+  color: #ffffff;
+  margin-top: 15px;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  opacity: 0;
+  animation: HeadlineAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Headline p {
+  font-family: 'Lato Light', sans-serif;
+  color: #9093A6;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.0675rem;
+  opacity: 0;
+  animation: HeadlineAnimation 3s cubic-bezier(0.2, 0.8, 0.2, 1) 1.2s forwards;
+}
+
+.alias {
+  color: white;
+}
+
+.readMoreBtn {
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  background: #C93200;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+  border-radius: 5px;
+  opacity: 0.8;
+  font-family: 'Lato Light', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.0675rem;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.readMoreBtn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 640px) {
+  .Headline h1 {
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 0.07em;
+  }
+
+  .Headline span {
+    display: block;
+  }
+
+  .readMoreBtn {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .Headline p {
+    font-size: 15px;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+}
+
+@keyframes HeadlineAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.Headline svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Headline .Logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+}
+
+.flowingMuseLogo {
+  margin-top: 15px;
+}
+
+.emdash {
+  color: #9093A6;
+}
+
+.Cards h2 {
+  margin: 50px 100px;
+  text-align: left;
+  font-family: 'Baskervville Bold', serif;
+  letter-spacing: 0.125rem;
+  font-size: 60px;
+  color: #16192B;
+  text-transform: uppercase;
+}
+
+.CardGroup {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 736px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
+
+.WhatWeDo h2 {
+  margin: 50px 100px;
+  text-align: center;
+  font-size: 40px;
+  background: linear-gradient(180deg, #7B37FF 30%, #AF14FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.WhatWeDo {
+  position: relative;
+}
+
+.WhatWeDo .TopWave {
+  width: 100%;
+  z-index: 1;
+  height: 150px;
+  transform: rotate(180deg);
+  background-color: #16192B;
+}
+
+@media (max-width: 736px) {
+  .WhatWeDo .TopWave {
+    top: 90px;
+  }
+}
+

@@ -1,0 +1,70 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(10px, auto);
+    font-family: 'Lato Light', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #16192B;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 25px;
+    overflow: hidden;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#images {
+    transition: transform .5s ease;
+    max-width: 500px;
+    max-height: 400px;
+}
+
+#images:hover {
+    transform: scale(1.1);
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: 1fr 3fr 5fr;
+    max-width: 400px;
+}
+
+.nested #numbers {
+    color: #C93200;
+    transform: rotate(-90deg);
+
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.nested #titles {
+    font-family: 'Baskervville', serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.0675rem;
+}
+
+.nested #description {
+    font-family: 'Lato Light', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.0675rem;
+    color: #9093A6;
+}
