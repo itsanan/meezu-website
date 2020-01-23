@@ -16,7 +16,7 @@
 }
 
 #images {
-    transition: transform .5s ease;
+    transition: transform .5s cubic-bezier(0.84, 0.01, 0.4, 0.99);
     max-width: 500px;
     max-height: 400px;
 }

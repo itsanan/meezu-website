@@ -146,8 +146,21 @@ a {
   margin-top: 15px;
 }
 
-.emdash {
-  color: #9093A6;
+.Cards h2 {
+  span {
+    opacity: 0;
+  }
+
+  span.emdash {
+    position: absolute;
+    opacity: 1;
+    color: #9093A6;
+  }
+
+  span.animated-h2 {
+    animation: 1.2s cubic-bezier(0, 0.76, 0.8, 1.01) left-to-right;
+    opacity: 1;
+  }
 }
 
 .Cards h2 {
@@ -207,3 +220,16 @@ a {
   }
 }
 
+/* Keyframes Animations */
+@keyframes left-to-right {
+  0% {
+    letter-spacing: -2rem;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+  }
+  100% {
+    letter-spacing: 0.125rem;
+    webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
