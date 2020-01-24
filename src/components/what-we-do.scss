@@ -257,6 +257,76 @@
     }
   }
 
+/* Media Query */  
+
+// Xiaomi Redmi 8 Note Pro
+@media only screen and (min-width: 393px) and (orientation: portrait) { 
+    /* Your Styles... */ 
+
+}
+
+// Samsung A50
+@media only screen and (min-width: 412px) and (orientation: portrait) { 
+  /* Your Styles... */ 
+
+}
+
+// iPhone 6 and 7
+@media only screen and (min-width: 375px) and (orientation: portrait) { 
+  /* Your Styles... */ 
+    .Pelir {
+        .animated-h2 {
+            font-size: 35px;
+        }
+
+        .animated-p {
+            font-size: 15px;
+        }
+
+        h1 {
+           font-size: 20px; 
+        }
+    }
+
+    .Graphictures {
+        .animated-h2 {
+            font-size: 35px;
+        }
+
+        .animated-p {
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 20px; 
+        }
+    }
+
+    .Flowingmuse {
+        .animated-h2 {
+            font-size: 35px;
+        }
+
+        .animated-p {
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 20px; 
+        }
+    }
+
+    .container-1, .container-2 {
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 450px;
+            width: 80%;
+        }
+    }
+}
+
   /* Keyframes Animations */
   @keyframes bottom-to-top {
     0% {

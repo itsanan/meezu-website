@@ -45,6 +45,10 @@ const SectionCaption = Styled.p`
       filter: blur(0);
     }
   }
+
+  @media only screen and (min-width: 375px) and (orientation: portrait) { 
+    font-size: 40px;
+  }
 `
 
 class IndexPage extends React.Component {
@@ -113,7 +117,7 @@ class IndexPage extends React.Component {
             btnText="Read More"/>
             <Card 
             title="Bayu Rangsang" 
-            text="Content Producer" 
+            text="Project Manager" 
             image={'http://assets.meezu.co/profiles/Bayu.jpg'}
             btnText="Read More"/>
             <Card 

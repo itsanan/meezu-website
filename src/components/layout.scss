@@ -214,9 +214,43 @@ a {
   background-color: #16192B;
 }
 
+/* Media Query */
 @media (max-width: 736px) {
   .WhatWeDo .TopWave {
     top: 90px;
+  }
+}
+
+// Xiaomi Redmi 8 Note Pro
+@media only screen and (min-width: 393px) and (orientation: portrait) { 
+  /* Your Styles... */ 
+
+}
+
+// Samsung A50
+@media only screen and (min-width: 412px) and (orientation: portrait) { 
+/* Your Styles... */ 
+
+}
+
+// iPhone 6 and 7
+@media only screen and (min-width: 375px) and (orientation: portrait) { 
+/* Your Styles... */ 
+  .Headline {
+    .Logos {
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      }
+      
+    }
+  }
+
+  .CardGroup {
+    margin: 0 auto;
   }
 }
 

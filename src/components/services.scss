@@ -184,11 +184,30 @@ $cOrangeRed: #C93200;
     background-color: #16192B;
 }
 
+/* Media Query */
 @media (max-width: 736px) {
     .Maps {
       height: 600px;
     }
   }
+
+// Xiaomi Redmi 8 Note Pro
+@media only screen and (min-width: 393px) and (orientation: portrait) { 
+    /* Your Styles... */ 
+
+}
+
+// Samsung A50
+@media only screen and (min-width: 412px) and (orientation: portrait) { 
+  /* Your Styles... */ 
+
+}
+
+// iPhone 6 and 7
+@media only screen and (min-width: 375px) and (orientation: portrait) { 
+  /* Your Styles... */ 
+
+}
 
 /* Keyframes Animations */
 @keyframes bottom-to-top {
