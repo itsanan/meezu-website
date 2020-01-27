@@ -14,6 +14,15 @@ const SectionGroup = Styled.div`
     @media (max-width: 736px) {
         height: 550px;
     }
+
+    // iPad Pro
+    @media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        max-height: 900px;
+    }
 `
 const SectionLogo = Styled.img`
     align-self: end;
@@ -24,15 +33,25 @@ const SectionLogo = Styled.img`
     @media (max-width: 736px) {
         width: 89px;
     }
+
+    // iPad Pro
+    @media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        width: 100px;
+    }
 `
 const SectionTitleGroup = Styled.div`
     display: grid;
-    grid-template-columns: 300px auto;
-    margin: 0 40px;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
     grid-gap: 20px;
     grid-template-rows: auto 100%;
 
     @media (max-width: 736px) {
+        padding: 1.5em;
         grid-template-columns: 1fr;
     }
 `
@@ -60,6 +79,16 @@ const SectionText = Styled.p`
             opacity: 1;
             transform: translateY(0);
         }
+    }
+
+    // iPad Pro
+    @media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        text-align: left;
+        max-width: 30rem;
     }
 `
 

@@ -193,15 +193,6 @@ a {
   }
 }
 
-.WhatWeDo h2 {
-  margin: 50px 100px;
-  text-align: center;
-  font-size: 40px;
-  background: linear-gradient(180deg, #7B37FF 30%, #AF14FF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .WhatWeDo {
   position: relative;
 }
@@ -252,6 +243,34 @@ a {
   .CardGroup {
     margin: 0 auto;
   }
+}
+
+// iPad Pro
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  .HeadlineGroup {
+    h1 {
+      font-size: 30px;
+    }
+    
+    p {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      max-width: 400px;
+    }
+
+    .Logos {
+      img {
+        width: 35%;
+      }
+    }
+  }
+
 }
 
 /* Keyframes Animations */

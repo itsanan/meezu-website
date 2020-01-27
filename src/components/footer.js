@@ -23,6 +23,19 @@ const Text = Styled.p`
         font-size: 20px;
         max-width: 200px;
     }
+
+    // iPad Pro
+    @media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    p {
+        font-size: 40px;
+    }
+
+    }
 `
 
 const Button = Styled.button`
@@ -49,6 +62,18 @@ const Button = Styled.button`
     @media (max-width: 720px) {
         font-size: 12px;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    // iPad Pro
+    @media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+
+        padding: 15px 15px;
+        font-size: 20px;
+
     }
 `
 
