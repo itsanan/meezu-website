@@ -1,5 +1,33 @@
+/* Color variants */
+$color-alpha: #16192B;
+$color-beta: #C93200;
+$color-gamma: #9093A6;
+$color-psi: #FFFFFF;
+
+/* Weight variants */
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+/* Font variants */
+@font-face {
+    font-family: "Baskervville";
+    src: url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
+
 .body {
-    background-color: #16192B;
+    background-color: $color-alpha;
 }
 
 /* Media Query */

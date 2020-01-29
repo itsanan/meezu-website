@@ -1,5 +1,5 @@
 import React from "react"
-import '../components/what-we-do.scss'
+import '../components/styles/what-we-do.scss'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"

@@ -1,5 +1,5 @@
 import React from "react"
-import "./project-card.css"
+import "./styles/project-card.scss"
 
 class ProjectCard extends React.Component {
 

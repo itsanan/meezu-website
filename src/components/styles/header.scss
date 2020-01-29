@@ -1,3 +1,31 @@
+/* Color variants */
+$color-alpha: #16192B;
+$color-beta: #C93200;
+$color-gamma: #9093A6;
+$color-psi: #FFFFFF;
+
+/* Weight variants */
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+/* Font variants */
+@font-face {
+    font-family: "Baskervville";
+    src: url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
+
 .Header {
     position: fixed;
     width: 100%;
@@ -7,12 +35,12 @@
 }
 
 .HeaderScrolled {
-    background: #16192B;
+    background: $color-alpha;
     font-family: 'Lato Light', sans-serif;
     font-size: 15px;
     letter-spacing: 0.0675rem;
     opacity: 0.85;
-    color: #FFFFFF;
+    color: $color-psi;
     padding: 15px 0;
     backdrop-filter: blur(20px);
 }
@@ -37,13 +65,13 @@
 .HeaderGroup .brand {
     position: relative;
     font-family: 'Baskervville', serif;
-    font-weight: 400;
+    font-weight: $normal-weight;
     font-size: 30px;
     margin-bottom: 0.5rem;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
     text-align: center;
-    color: #FFFFFF;
+    color: $color-psi;
     grid-column: 1/4;
     grid-row: 1/2;
     animation: mover 1.3s cubic-bezier(0, 0.76, 0.8, 1.01);
@@ -70,13 +98,13 @@
     font-family: 'Lato Light', sans-serif;
     font-size: 15px;
     letter-spacing: 0.0675rem;
-    font-weight: 100;
-    color: #FFFFFF;
+    font-weight: $hairline-weight;
+    color: $color-psi;
     transition: 0.8s;
 }
 
 .Header a:hover {
-    color: #C93200;
+    color: $color-beta;
 }
 
 .HeaderGroup img {

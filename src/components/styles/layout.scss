@@ -1,7 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Baskervville|Lato&display=swap');
+/* Color variants */
+$color-alpha: #16192B;
+$color-beta: #C93200;
+$color-gamma: #9093A6;
+$color-psi: #FFFFFF;
+
+/* Weight variants */
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+/* Font variants */
+@font-face {
+    font-family: "Baskervville";
+    src: url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
 
 main {
-  background-color: white;
+  background-color: $color-psi;
 }
 
 body {
@@ -14,12 +40,12 @@ body {
 }
 
 a {
-  color: #ffffff;
+  color: $color-psi;
   text-decoration: none;
 }
 
 .Headline {
-  background-image: url('../images/bg.png');
+  background-image: url('../../images/bg.png');
   height: 900px;
   background-size: cover;
   background-position: center;
@@ -36,7 +62,7 @@ a {
 .Category {
   padding: 7px 7px;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: $normal-weight;
   font-family: 'Baskervville', sans-serif;
   color: rgba(255, 255, 255, 100);
   text-transform: uppercase;
@@ -44,11 +70,11 @@ a {
 }
 
 .Headline h1 {
-  color: #ffffff;
+  color: $color-psi;
   margin-top: 15px;
   font-size: 40px;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: $normal-weight;
   line-height: 1;
   opacity: 0;
   animation: HeadlineAnimation;
@@ -60,7 +86,7 @@ a {
 
 .Headline p {
   font-family: 'Lato Light', sans-serif;
-  color: #9093A6;
+  color: $color-gamma;
   font-size: 15px;
   line-height: 1.5;
   letter-spacing: 0.0675rem;
@@ -69,20 +95,20 @@ a {
 }
 
 .alias {
-  color: white;
+  color: $color-psi;
 }
 
 .readMoreBtn {
   outline: none;
   padding: 10px 20px;
   font-size: 20px;
-  background: #C93200;
+  background: $color-beta;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
   border-radius: 5px;
   opacity: 0.8;
   font-family: 'Lato Light', sans-serif;
   font-size: 15px;
-  color: #ffffff;
+  color: $color-psi;
   text-transform: uppercase;
   letter-spacing: 0.0675rem;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -106,7 +132,7 @@ a {
 
   .readMoreBtn {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: $medium-weight;
   }
 
   .Headline p {
@@ -154,7 +180,7 @@ a {
   span.emdash {
     position: absolute;
     opacity: 1;
-    color: #9093A6;
+    color: $color-gamma;
   }
 
   span.animated-h2 {
@@ -169,7 +195,7 @@ a {
   font-family: 'Baskervville Bold', serif;
   letter-spacing: 0.125rem;
   font-size: 60px;
-  color: #16192B;
+  color: $color-alpha;
   text-transform: uppercase;
 }
 
@@ -202,7 +228,7 @@ a {
   z-index: 1;
   height: 150px;
   transform: rotate(180deg);
-  background-color: #16192B;
+  background-color: $color-alpha;
 }
 
 /* Media Query */

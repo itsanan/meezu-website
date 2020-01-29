@@ -1,6 +1,6 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
-import './card.css'
+import './styles/card.scss'
 
 const Card = props  => (
         <div className="Card">

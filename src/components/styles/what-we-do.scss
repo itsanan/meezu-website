@@ -1,3 +1,30 @@
+/* Color variants */
+$color-alpha: #16192B;
+$color-beta: #C93200;
+$color-gamma: #9093A6;
+$color-psi: #FFFFFF;
+
+/* Weight variants */
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+/* Font variants */
+@font-face {
+    font-family: "Baskervville";
+    src: url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
 
 .Pelir {
 
@@ -13,7 +40,6 @@
 
 }
 
-
 .Pelir h2 {
     padding-top: 5em;
     margin-top: 0;
@@ -24,9 +50,9 @@
     font-size: 40px;
     font-family: 'Baskervville', serif;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: $normal-weight;
     letter-spacing: 0.125rem;
-    color: white;
+    color: $color-psi;
     opacity: 0;
 
     @media (max-width: 736px) {
@@ -38,12 +64,12 @@
 .Pelir h1 {
     font-family: 'Baskervville', serif;
     margin: 1em auto;
-    font-weight: 400;
+    font-weight: $normal-weight;
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
     letter-spacing: 0.0675rem;
-    color: white;
+    color: $color-psi;
 
     .season-number {
         font-size: 35px;
@@ -53,9 +79,9 @@
 .Pelir p {
     margin: 0 auto;
     font-family: 'Lato Light', sans-serif;
-    font-weight: 300;
+    font-weight: $light-weight;
     font-size: 20px;
-    color: #9093A6;
+    color: $color-gamma;
     letter-spacing: 0.0675rem;
     text-align: justify;
     line-height: 25px;
@@ -77,7 +103,6 @@
 
 }
 
-
 .Graphictures h2 {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -87,9 +112,9 @@
     font-size: 40px;
     font-family: 'Baskervville', serif;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: $normal-weight;
     letter-spacing: 0.125rem;
-    color: white;
+    color: $color-psi;
     opacity: 0;
 
     @media (max-width: 736px) {
@@ -100,20 +125,20 @@
 .Graphictures h1 {
     font-family: 'Baskervville', serif;
     margin: 1em auto;
-    font-weight: 400;
+    font-weight: $normal-weight;
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
     letter-spacing: 0.0675rem;
-    color: white;
+    color: $color-psi;
 }
 
 .Graphictures p {
     margin: 0 auto;
     font-family: 'Lato Light', sans-serif;
-    font-weight: 300;
+    font-weight: $light-weight;
     font-size: 20px;
-    color: #9093A6;
+    color: $color-gamma;
     letter-spacing: 0.0675rem;
     text-align: justify;
     line-height: 25px;
@@ -141,9 +166,9 @@
         font-size: 40px;
         font-family: 'Baskervville', serif;
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: $normal-weight;
         letter-spacing: 0.125rem;
-        color: white;
+        color: $color-psi;
         opacity: 0;
     
         @media (max-width: 736px) {
@@ -154,20 +179,20 @@
     h1 {
         font-family: 'Baskervville', serif;
         margin: 1em auto;
-        font-weight: 400;
+        font-weight: $normal-weight;
         text-align: center;
         text-transform: uppercase;
         font-size: 24px;
         letter-spacing: 0.0675rem;
-        color: white;
+        color: $color-psi;
     }
     
     p {
         margin: 0 auto;
         font-family: 'Lato Light', sans-serif;
-        font-weight: 300;
+        font-weight: $light-weight;
         font-size: 20px;
-        color: #9093A6;
+        color: $color-gamma;
         letter-spacing: 0.0675rem;
         text-align: justify;
         line-height: 25px;
@@ -183,7 +208,7 @@
         margin-bottom: 5px;
         width: 100%;
         height: 0.5px;
-        background: #C93200;
+        background: $color-beta;
         position: absolute;
         visibility: hidden;
         transform-origin: center;
@@ -200,9 +225,9 @@
     padding: 1rem;
     opacity: 0.7;
     font-family: 'Lato Light', sans-serif;
-    font-weight: regular;
+    font-weight: $normal-weight;
     font-size: 15px;
-    color: #9093A6;
+    color: $color-gamma;
     text-align: center;
     line-height: 25px;
 }

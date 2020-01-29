@@ -1,3 +1,31 @@
+/* Color variants */
+$color-alpha: #16192B;
+$color-beta: #C93200;
+$color-gamma: #9093A6;
+$color-psi: #FFFFFF;
+
+/* Weight variants */
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+/* Font variants */
+@font-face {
+    font-family: "Baskervville";
+    src: url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(1fr, 4);
@@ -5,8 +33,8 @@
     grid-auto-rows: minmax(10px, auto);
     font-family: 'Lato Light', sans-serif;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #16192B;
+    color: $color-psi;
+    background-color: $color-alpha;
     letter-spacing: 0;
     text-align: left;
     line-height: 25px;
@@ -32,7 +60,7 @@
 }
 
 .nested #numbers {
-    color: #C93200;
+    color: $color-beta;
     transform: rotate(-90deg);
 
     /* Legacy vendor prefixes that you probably don't need... */
@@ -56,7 +84,7 @@
 .nested #titles {
     font-family: 'Baskervville', serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: $normal-weight;
     text-transform: uppercase;
     letter-spacing: 0.0675rem;
 }
@@ -64,7 +92,7 @@
 .nested #description {
     font-family: 'Lato Light', sans-serif;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: $normal-weight;
     letter-spacing: 0.0675rem;
-    color: #9093A6;
+    color: $color-gamma;
 }

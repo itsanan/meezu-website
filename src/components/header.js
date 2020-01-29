@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
-import "./header.css"
+import "./styles/header.scss"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 
