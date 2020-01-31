@@ -37,7 +37,7 @@ $black-weight:    900;
 .HeaderScrolled {
     background: $color-alpha;
     font-family: 'Lato Light', sans-serif;
-    font-size: 15px;
+    font-size: 0.8em;
     letter-spacing: 0.0675rem;
     opacity: 0.85;
     color: $color-psi;
@@ -66,7 +66,7 @@ $black-weight:    900;
     position: relative;
     font-family: 'Baskervville', serif;
     font-weight: $normal-weight;
-    font-size: 30px;
+    font-size: 1.6em;
     margin-bottom: 0.5rem;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
@@ -96,7 +96,7 @@ $black-weight:    900;
 
 .Header a {
     font-family: 'Lato Light', sans-serif;
-    font-size: 15px;
+    font-size: 0.8em;
     letter-spacing: 0.0675rem;
     font-weight: $hairline-weight;
     color: $color-psi;

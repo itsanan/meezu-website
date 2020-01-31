@@ -34,10 +34,10 @@ $black-weight:    900;
 
 .accordion-list{
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background-color: $color-alpha;
-  max-width: 25rem;
+  max-width: 55rem;
   padding-top: 3rem;
   border-radius: 0.4rem;
   overflow: hidden;
@@ -135,7 +135,7 @@ $black-weight:    900;
 
 .Services {
   padding: 1em;
-  text-align: left;
+  text-align: center;
   background-color: $color-alpha;
 
   h1 {
@@ -159,9 +159,14 @@ $black-weight:    900;
     font-family: 'Lato Light', sans-serif;
     color: $color-gamma;
     font-weight: $thin-weight;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 0.05rem;
     opacity: 0;
+  }
+
+  #visible-p {
+    margin: 0 auto;
+    max-width: 50%;
   }
 
   .animated-p {
@@ -230,7 +235,24 @@ $black-weight:    900;
 // iPhone 6 and 7
 @media only screen and (min-width: 375px) and (orientation: portrait) { 
   /* Your Styles... */ 
+  .Services {
+    text-align: left;
 
+    p {
+      font-size: 15px;
+      max-width: none;
+    }
+
+    #visible-p {
+      margin: 0;
+      max-width: 100%;
+    }
+
+  }
+
+  .accordion-list {
+    max-width: 25rem;
+  }
 }
 
 // iPad Pro
@@ -241,7 +263,7 @@ $black-weight:    900;
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
   .accordion-list {
-    max-width: 900px;
+    max-width: 56.25rem;
   }
 
   .Services {

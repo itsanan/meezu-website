@@ -12,7 +12,7 @@ const SectionGroup = Styled.div`
     position: relative;
 
     @media (max-width: 736px) {
-        height: 550px;
+        height: 700px;
     }
 
     // iPad Pro
@@ -27,7 +27,6 @@ const SectionGroup = Styled.div`
 const SectionLogo = Styled.img`
     align-self: end;
     width: 128px;
-    max-height: 208px;
     margin: 0 auto;
 
     @media (max-width: 736px) {
@@ -59,10 +58,14 @@ const SectionTitleGroup = Styled.div`
 const SectionText = Styled.p`
     font-family: 'Lato Light', sans-serif;
     font-weight: regular;
-    font-size: 15px;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 50%;
     letter-spacing: 0.0675rem;
     color: #9093A6;
     opacity: 0;
+    text-align: center;
+    padding: 1.5em;
 
     &.animated-p {
         animation: 2s bottom-to-top;
@@ -81,13 +84,20 @@ const SectionText = Styled.p`
         }
     }
 
+    @media (max-width: 736px) {
+        font-size: 15px;
+        text-align: left;
+        max-width: 100%;
+    }
+
     // iPad Pro
     @media only screen 
     and (min-width: 1024px) 
     and (max-height: 1366px) 
     and (orientation: portrait) 
     and (-webkit-min-device-pixel-ratio: 1.5) {
-        text-align: left;
+        font-size: 15px;
+        text-align: center;
         max-width: 30rem;
     }
 `

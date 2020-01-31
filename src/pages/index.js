@@ -70,7 +70,7 @@ class IndexPage extends React.Component {
         <div>
         <div className="Headline">
           <div className="HeadlineGroup">
-            <h1><span>Expansive Company</span><span>that Works Excessively</span></h1>
+            <h1><span>Expansive Company </span><span>that Works Excessively</span></h1>
             <p>A group of people who love to work on visual, text, and music, more in the future. Creating creative and beautiful ideas, or just call us <span className="alias">"Manufaktur Estetika"</span>.</p>
             <a className="readMoreBtn" href="https://www.instagram.com/meezu.co">Our Works</a>
             <div className="Logos">

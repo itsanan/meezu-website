@@ -87,7 +87,7 @@ a {
 .Headline p {
   font-family: 'Lato Light', sans-serif;
   color: $color-gamma;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.0675rem;
   opacity: 0;
@@ -254,6 +254,11 @@ a {
 @media only screen and (min-width: 375px) and (orientation: portrait) { 
 /* Your Styles... */ 
   .Headline {
+
+    p {
+      font-size: 15px;
+    }
+
     .Logos {
 
       img {
@@ -277,6 +282,10 @@ a {
   and (max-height: 1366px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  .Headline p {
+      font-size: 15px;
+   } 
 
   .HeadlineGroup {
     h1 {

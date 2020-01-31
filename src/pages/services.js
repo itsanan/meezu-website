@@ -95,7 +95,7 @@ class Services extends React.Component {
           <TrackVisibility onVisible={
             () => this.setState({ inViewportP: true })
           }>
-          <p className={this.state.inViewportP ? 'animated-p' : ''}>By hiring us on instagram management, we will handle your instagram account to grow as big as your wish and whims. We work to make sure the content is delivered correctly to your dream clients in a specific categories.</p>
+          <p id="visible-p" className={this.state.inViewportP ? 'animated-p' : ''}>By hiring us on instagram management, we will handle your instagram account to grow as big as your wish and whims. We work to make sure the content is delivered correctly to your dream clients in a specific categories.</p>
           </TrackVisibility>
           <TrackVisibility onVisible = { 
             () => this.setState({ inViewportH1: true })
@@ -105,7 +105,7 @@ class Services extends React.Component {
           <TrackVisibility onVisible={
             () => this.setState({ inViewportP: true })
           }>
-          <p className={this.state.inViewportP ? 'animated-p' : ''}>This service provide you with an access to hire us in package related to branding. You can pick all of it or just one. You start your business and dont know what branding is? Then you need strategy. You already have your own strategy but need to expand your market? Well you can choose other services such as jingle, campaign, or company profile. </p>
+          <p id="visible-p" className={this.state.inViewportP ? 'animated-p' : ''}>This service provide you with an access to hire us in package related to branding. You can pick all of it or just one. You start your business and dont know what branding is? Then you need strategy. You already have your own strategy but need to expand your market? Well you can choose other services such as jingle, campaign, or company profile. </p>
           </TrackVisibility>
           <Accordion data={this.data1}/>
           <TrackVisibility onVisible = { 
@@ -113,7 +113,7 @@ class Services extends React.Component {
             }>
             <h1 className={this.state.inViewport ? 'animated-h1' : ''}><span class="underline--magical">SINGLE ITEM</span></h1>
           </TrackVisibility>
-          <p className={this.state.inViewport ? 'animated-p' : ''}>Some people may only need a single service. We also provide it. So, here the list.</p>
+          <p id="visible-p" className={this.state.inViewport ? 'animated-p' : ''}>Some people may only need a single service. We also provide it. So, here the list.</p>
           <Accordion data={this.data2}/>
           <TrackVisibility onVisible={ 
             () => this.setState({ inViewportH1Maps: true })
@@ -123,7 +123,7 @@ class Services extends React.Component {
           <TrackVisibility onVisible={
             () => this.setState({ inViewportPMaps: true })
           }>
-          <p className={this.state.inViewportPMaps ? 'Maps-Placeanimated-p' : ''}>Jl. Kerinci 83, Kadipiro, Surakarta, Jawa Tengah, Indonesia.</p>
+          <p id="visible-p" className={this.state.inViewportPMaps ? 'Maps-Placeanimated-p' : ''}>Jl. Kerinci 83, Kadipiro, Surakarta, Jawa Tengah, Indonesia.</p>
           </TrackVisibility>
         </div>
         <div className="Maps">

@@ -46,7 +46,7 @@ $black-weight:    900;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 100px;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
     font-family: 'Baskervville', serif;
     text-transform: uppercase;
@@ -63,7 +63,10 @@ $black-weight:    900;
 
 .Pelir h1 {
     font-family: 'Baskervville', serif;
-    margin: 1em auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
     font-weight: $normal-weight;
     text-align: center;
     text-transform: uppercase;
@@ -83,7 +86,7 @@ $black-weight:    900;
     font-size: 20px;
     color: $color-gamma;
     letter-spacing: 0.0675rem;
-    text-align: justify;
+    text-align: center;
     line-height: 25px;
     max-width: 50%;
     opacity: 0;
@@ -104,11 +107,11 @@ $black-weight:    900;
 }
 
 .Graphictures h2 {
-    margin-top: 100px;
+    margin-top: 0;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 100px;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
     font-family: 'Baskervville', serif;
     text-transform: uppercase;
@@ -124,7 +127,10 @@ $black-weight:    900;
 
 .Graphictures h1 {
     font-family: 'Baskervville', serif;
-    margin: 1em auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
     font-weight: $normal-weight;
     text-align: center;
     text-transform: uppercase;
@@ -140,7 +146,7 @@ $black-weight:    900;
     font-size: 20px;
     color: $color-gamma;
     letter-spacing: 0.0675rem;
-    text-align: justify;
+    text-align: center;
     line-height: 25px;
     max-width: 50%;
     opacity: 0;
@@ -158,11 +164,11 @@ $black-weight:    900;
     }
 
     h2 {
-        margin-top: 100px;
+        margin-top: 0;
         margin-bottom: 50px;
         margin-left: 50px;
         margin-right: 100px;
-        text-align: left;
+        text-align: center;
         font-size: 40px;
         font-family: 'Baskervville', serif;
         text-transform: uppercase;
@@ -178,7 +184,10 @@ $black-weight:    900;
     
     h1 {
         font-family: 'Baskervville', serif;
-        margin: 1em auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 100px;
         font-weight: $normal-weight;
         text-align: center;
         text-transform: uppercase;
@@ -194,7 +203,7 @@ $black-weight:    900;
         font-size: 20px;
         color: $color-gamma;
         letter-spacing: 0.0675rem;
-        text-align: justify;
+        text-align: center;
         line-height: 25px;
         max-width: 50%;
         opacity: 0;
@@ -308,8 +317,18 @@ $black-weight:    900;
             font-size: 15px;
         }
 
+        p {
+            text-align: left;
+        }
+
         h1 {
+           padding-top: 2em;
+           margin: 0 auto;
            font-size: 20px; 
+        }
+
+        h2 {
+            text-align: left;
         }
     }
 
@@ -322,8 +341,18 @@ $black-weight:    900;
             font-size: 15px;
         }
 
+        p {
+            text-align: left;
+        }
+
         h1 {
+            padding-top: 2em;
+            margin: 0 auto;
             font-size: 20px; 
+        }
+
+        h2 {
+            text-align: left;
         }
     }
 
@@ -336,8 +365,18 @@ $black-weight:    900;
             font-size: 15px;
         }
 
+        p {
+            text-align: left;
+        }
+
         h1 {
+            padding-top: 2em;
+            margin: 0 auto;
             font-size: 20px; 
+        }
+
+        h2 {
+            text-align: left;
         }
     }
 
