@@ -75,9 +75,9 @@ class IndexPage extends React.Component {
             <a className="readMoreBtn" href="https://www.instagram.com/meezu.co">Our Works</a>
             <div className="Logos">
               <LazyLoad throttle={200} height={300}>
-              <img src={require('../images/graphictures-logo.png')} width="120"/>
-              <img className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60"/>
-              <img src={require('../images/pelir-logo.png')} width="100"/>
+              <img alt="Graphictures Logo" src={require('../images/graphictures-logo.png')} width="120"/>
+              <img alt="Flowingmuse Logo" className="flowingMuseLogo" src={require('../images/fmuse-logo.png')} width="60"/>
+              <img alt="Pelir Logo" src={require('../images/pelir-logo.png')} width="100"/>
               </LazyLoad>
             </div>
             <Wave color={this.color}/>

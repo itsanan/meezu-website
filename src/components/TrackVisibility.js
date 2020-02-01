@@ -6,11 +6,11 @@ class TrackVisibility extends React.Component {
     async componentDidMount() {
         const observer = new IntersectionObserver(
             ([entry]) => {
-                if (entry.intersectionRatio == 0.1) {
+                if (entry.intersectionRatio === 0.1) {
                     // Element came into view
-                } else if (entry.intersectionRatio == 0.5) {
+                } else if (entry.intersectionRatio === 0.5) {
                     // Half the element is visible
-                } else if (entry.intersectionRatio == 1) {
+                } else if (entry.intersectionRatio === 1) {
                     // Element is fully in view
                     this.props.onVisible()
                 }

@@ -38,7 +38,8 @@ class AccordionItem extends React.Component {
       <div
         {...{
           className: `accordion-item, ${opened && 'accordion-item--opened'}`,
-          onClick: () => { this.setState({ opened: !opened }) }
+          onClick: () => { this.setState({ opened: !opened }) },
+          onKeyDown: () => { this.setState({ opened: !opened }) }
         }}
       >
         <div {...{ className: 'accordion-item__line' }}>

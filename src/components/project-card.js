@@ -11,7 +11,7 @@ class ProjectCard extends React.Component {
         return (
                 <div className="wrapper">
                     <div>
-                        <img id="images" src={this.props.image} />
+                        <img id="images" alt="Projects Images" src={this.props.image} />
                     </div>
                     <div className="nested">
                         <div>
