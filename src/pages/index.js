@@ -111,11 +111,6 @@ class IndexPage extends React.Component {
             image={'http://assets.meezu.co/profiles/Dea.jpg'}
             btnText="Read More"/>
             <Card 
-            title="Riptantyo Adi" 
-            text="Business Development Manager" 
-            image={'http://assets.meezu.co/profiles/Tyok.jpg'}
-            btnText="Read More"/>
-            <Card 
             title="Bayu Rangsang" 
             text="Project Manager" 
             image={'http://assets.meezu.co/profiles/Bayu.jpg'}
@@ -134,11 +129,6 @@ class IndexPage extends React.Component {
             title="Dentadio Gonanda" 
             text="Photographer" 
             image={'http://assets.meezu.co/profiles/Dio.jpg'}
-            btnText="Read More"/>
-            <Card 
-            title="Giffari Sadewa" 
-            text="Social Media Manager" 
-            image={'http://assets.meezu.co/profiles/Ghifari.jpg'}
             btnText="Read More"/>
             <Card 
             title="Shahru Neeza" 
